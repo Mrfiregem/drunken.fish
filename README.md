@@ -10,21 +10,24 @@ fisher install Mrfiregem/drunken.fish
 
 ## Command Aliases
 
-| Alias  | Command                           |
-| :----- | :-------------------------------- |
-| br     | `brew`                            |
-| brewup | Upgrades packages and cleans brew |
-| cask   | `brew cask`                       |
-| bi     | `brew info`                       |
-| bis    | `brew install`                    |
-| bus    | `brew uninstall`                  |
-| ci     | `brew cask info`                  |
-| cis    | `brew cask install`               |
-| cus    | `brew cask uninstall`             |
-| bs     | `brew search`                     |
-| bsd    | `brew search --desc`              |
-| bdr    | `brew doctor`                     |
-| bcz    | `brew cask zap`                   |
-| blv    | `brew leaves`                     |
-| bls    | `brew ls`                         |
-| brmt   | `brew rmtree` (if tap installed)  |
+| Alias  | Command                             |
+| :----- | :---------------------------------- |
+| br     | `brew`                              |
+| brewup | Upgrades packages and cleans brew   |
+| cask   | `brew cask`                         |
+| bi     | `brew info`                         |
+| bis    | `brew install`                      |
+| bus    | `brew uninstall`                    |
+| ci     | `brew info --cask`                  |
+| cis    | `brew install --cask`               |
+| cus    | `brew uninstall --cask`             |
+| bs     | `brew search`                       |
+| bsd    | `brew search --desc`                |
+| cs     | `brew search --cask`                |
+| bdr    | `brew doctor`                       |
+| bcz    | `brew cask zap`                     |
+| blv    | `brew leaves`                       |
+| bls    | `brew list`                         |
+| blsd   | `brew list --desc`                  |
+| cls    | `brew list --cask`                  |
+| brmt   | `brew rmtree` (if tap is installed) |

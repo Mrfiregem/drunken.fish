@@ -26,7 +26,7 @@ abbr -g bcz 'brew cask zap'
 
 abbr -g blv 'brew leaves'
 abbr -g bls 'brew list'
-abbr -g blsd 'brew list --desc'
+abbr -g bll 'brew list -l'
 abbr -g cls 'brew list --cask'
 
 if brew tap | grep -q rmtree

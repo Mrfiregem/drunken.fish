@@ -28,6 +28,6 @@ fisher install Mrfiregem/drunken.fish
 | bcz    | `brew cask zap`                     |
 | blv    | `brew leaves`                       |
 | bls    | `brew list`                         |
-| blsd   | `brew list --desc`                  |
+| bll    | `brew list -l`                      |
 | cls    | `brew list --cask`                  |
 | brmt   | `brew rmtree` (if tap is installed) |

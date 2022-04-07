@@ -1,10 +1,8 @@
 abbr -g br brew
-abbr -g cask 'brew cask'
 
 function brewup
     brew -v update
     brew -v upgrade
-    brew upgrade --cask
     brew -v cleanup --prune=5
     brew doctor
 end

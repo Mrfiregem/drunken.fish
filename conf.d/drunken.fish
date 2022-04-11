@@ -7,6 +7,13 @@ function brewup
     brew doctor
 end
 
+function brmt
+  if test (count $argv) -gt 0
+    brew uninstall $argv
+  end
+  brew autoremove
+end
+
 abbr -g bi 'brew info'
 abbr -g bis 'brew install'
 abbr -g bus 'brew uninstall'
@@ -21,12 +28,9 @@ abbr -g cs 'brew search --cask'
 
 abbr -g bdr 'brew doctor'
 abbr -g bcz 'brew cask zap'
+abbr -g bar 'brew autoremove'
 
 abbr -g blv 'brew leaves'
 abbr -g bls 'brew list'
 abbr -g bll 'brew list -l'
 abbr -g cls 'brew list --cask'
-
-if brew tap | grep -q rmtree
-    abbr -g brmt 'brew rmtree'
-end
